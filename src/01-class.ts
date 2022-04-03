@@ -24,4 +24,7 @@ class MyDate {
   }
 }
 
+const myDate2 = new MyDate(1993, 1, 12);
+console.log(myDate2);
+
 //
