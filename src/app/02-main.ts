@@ -10,7 +10,7 @@ productService.create({
   images: ["image1.jpg", "image2.jpg"]
 });
 
-const products = productService.getall();
+const products = productService.getAll();
 console.log(products);
 const productId = products[0].id;
 productService.update(productId, {
